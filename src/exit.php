@@ -1,0 +1,9 @@
+<?php
+session_start();
+unset($_SESSION['name']);
+unset($_SESSION['search_goodname']);unset($_SESSION['search_goodtype']);unset($_SESSION['search_goodbrand']);unset($_SESSION['search_goodcolor']);unset($_SESSION['disshopid']);unset($_SESSION['onepage']);
+if(!empty($_GET['altsucc']))
+	header("location:index.php?altsucc={$_GET['altsucc']}");
+else
+	header('location:index.php');
+	exit;

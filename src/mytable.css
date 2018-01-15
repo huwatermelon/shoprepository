@@ -1,0 +1,59 @@
+#mytable 
+  {
+  position:absolute;
+  top:140px;
+  width:1600px;
+  border:1px solid green;
+  padding-top:0px;
+  border-spacing:0px;
+  border-style:none;
+  z-index:1;
+    margin-left:10px;
+    margin-bottom:200px;
+  }
+#mytable th,tr
+{
+
+  border:1px solid green;
+  border-spacing:0px;
+ background-color='#A7C942'
+}
+
+#mytable1
+  {
+  position:absolute;
+  top:100px;
+  width:1600px;
+  border:1px solid green;
+  padding-top:0px;
+  border-spacing:0px;
+  border-style:none;
+  z-index:1;
+    margin-left:10px;
+  }
+#mytable1 th,tr
+{
+
+  border:1px solid green;
+  border-spacing:0px;
+ background-color='#A7C942'
+}
+.mysaletable
+{
+  position:absolute;
+  top:140px;
+  width:1600px;
+  border:1px solid green;
+  padding-top:0px;
+  border-spacing:0px;
+  border-style:none;
+  z-index:1;
+    margin-left:10px;
+}
+.mysaletable th,tr
+{
+
+  border:1px solid green;
+  border-spacing:0px;
+ background-color='#A7C942'
+}

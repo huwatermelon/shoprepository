@@ -1,0 +1,6 @@
+name: huwatermelon
+version: 1
+cron:
+    - description: backup
+    url: /backup.php
+    schedule: every day of month 02:00

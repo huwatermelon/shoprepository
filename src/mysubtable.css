@@ -1,0 +1,30 @@
+.mysubtable 
+{
+
+   background:#999;
+  border:1px solid green;
+  padding-top:0px;
+  border-spacing:0px;
+  border-style:none;
+  z-index:2;
+}
+
+.mysubtable .close {
+display: block;
+width: 10px;
+height: 10px;
+background: url(../images/icon.png) 0 -400px;
+background-image: url(../icon.png);
+background-position-x: 0px;
+background-position-y: -400px;
+background-size: initial;
+background-repeat-x: initial;
+background-repeat-y: initial;
+background-attachment: initial;
+background-origin: initial;
+background-clip: initial;
+background-color: initial;
+float: right;
+margin: 9px 7px 0 0;
+display: inline;
+}
